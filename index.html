@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pierre papier ciseaux</title>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>
+            <h1>Pierre...papier...ciseaux !</h1>
+        </header>
+
+        <div class="score-board">
+            <div id="user-label" class="badge">user</div>
+            <div id="computer-label" class="badge">comp</div>
+            <span id="user-score">0</span>:<span id="computer-score">0</span>
+        </div>
+
+        <div class="result">
+            <p>Le papier recouvre la pierre... Tu as gagné !</p>
+        </div>
+
+        <div class="choices">
+            <div class="choice" id="pierre">
+                <img src="https://nsa40.casimages.com/img/2021/03/14/210314120954919651.png" alt="Pierre-image">
+            </div>
+            <div class="choice" id="papier">
+                <img src="https://nsa40.casimages.com/img/2021/03/14/210314121034136073.png" alt="Papier-image">
+            </div>
+            <div class="choice" id="ciseaux">
+                <img src="https://nsa40.casimages.com/img/2021/03/14/210314121056741080.png" alt="Ciseaux-image">
+            </div>
+        </div>
+
+        <p id="action-message">Fais ton choix</p>
+
+        <script src="script.js"></script>
+    </body>
+</html>
